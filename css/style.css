@@ -1,0 +1,67 @@
+body{
+  font-family: 'Noto Serif KR', serif;
+  margin:0;
+  word-break:keep-all;
+}
+a{
+  color:black;
+  text-decoration:none;
+}
+a:hover{
+  color:#49a578;
+}
+h4{
+  font-weight:900;
+}
+
+/* navigation */
+.offcanvas{
+  border:0;
+}
+.menu{
+  background:none;
+  border:none;
+  border-radius:100%;
+  color:white;
+  font-size:3rem;
+  margin-left:10px;
+  padding:0;
+  position:fixed;
+}
+.menu-contents{
+  text-align:center;
+}
+.menu-category{
+  padding:10px;
+}
+.menu-title{
+  padding:5px;
+  text-decoration:underline;
+}
+.menu-list{
+  font-size:1.2rem;
+  line-height:2.5rem;
+  padding:20px;
+}
+.fa-instagram{
+  font-size:1.5rem;
+}
+
+/* work-list */
+.row{
+  margin:0;
+}
+.col-lg-6{
+  padding:0;
+}
+.work-list{
+  width:100%;
+}
+
+/* about */
+.no-content{
+  color:white;
+  padding:100px;
+  text-align:center;
+  text-decoration:line-through;
+}
