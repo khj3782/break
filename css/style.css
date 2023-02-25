@@ -16,6 +16,12 @@ h4{
 }
 
 /* navigation */
+.button{
+  background-color:black;
+  border-radius:50%;
+  height:50px;
+  width:50px;
+}
 .offcanvas{
   border:0;
 }
@@ -44,7 +50,7 @@ h4{
   line-height:2.5rem;
   padding:20px;
 }
-.fa-instagram{
+.fab{
   font-size:1.5rem;
 }
 
@@ -65,4 +71,26 @@ h4{
   padding:100px;
   text-align:center;
   text-decoration:line-through;
+}
+
+/*temporary classes*/
+.shortcut{
+  color:white;
+  font-size:1.5rem;
+  height:150px;
+  margin:200px 0 150px 70px;
+  position:absolute;
+  width:200px;
+}
+.shortcut-ind{
+  color:white;
+  margin-bottom:10px;
+}
+.shortcut-ind:hover{
+  background-color:white;
+  color:#0B3861;
+}
+.eyesfont{
+  background-color:black;
+  font-family: 'Noto Sans KR', sans-serif;
 }
