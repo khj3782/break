@@ -50,12 +50,6 @@ button{
   background-color:black;
   font-family: 'Noto Sans KR', sans-serif;
 }
-.section{
-  height:350px;
-}
-.section-first{
-  height:350px;
-}
 .section-bottom{
   background-color:#E6E6E6;
   height:30px;
@@ -104,6 +98,9 @@ button{
 @media(min-width: 768px){
   .navbar{
     height:100px;
+  }
+  .row{
+    height:350px;
   }
   .section-first{
     margin-top:100px;
