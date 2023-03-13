@@ -1,5 +1,7 @@
 body{
-  font-family: 'Noto Serif KR', serif;
+  background-color:black;
+  font-family: 'Noto Sans KR', sans-serif;
+  /**font-family: 'Noto Serif KR', serif;**/
   margin:0;
   word-break:keep-all;
 }
@@ -12,16 +14,15 @@ a:hover{
 }
 button{
   background-color:transparent;
-  border:1.5px solid #B45F04;
+  border:1.5px solid #FF8000;
   border-radius:20px;
-  color:#B45F04;
+  color:#FF8000;
   margin-top:10px;
   padding:5px 25px 5px 25px;
 }
 
 .container-fluid{
   margin:0;
-  padding:0;
 }
 .row{
   margin-left:0;
@@ -45,10 +46,6 @@ button{
 /*temporary classes*/
 .col{
   padding:0;
-}
-.eyesfont{
-  background-color:black;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 .section-bottom{
   background-color:#E6E6E6;
@@ -95,6 +92,31 @@ button{
   margin-top:10px;
 }
 
+/*vol31*/
+.absolute{
+  position:absolute;
+}
+.centered{
+  left:25%;
+  width:50%;
+}
+.background-container{
+  position:relative;
+  text-align:center;
+}
+.background{
+  height:90vh;
+  margin-left:0;
+}
+.background-cover{
+  background-color:black;
+  color:white;
+  height:100vh;
+  opacity:0.4;
+  width:100%;
+  z-index:1;
+}
+
 @media(min-width: 768px){
   .navbar{
     height:100px;
@@ -120,5 +142,14 @@ button{
   .banner-title{
     font-size:3.5rem;
     margin-top:0;
+  }
+  .background{
+    height:auto;
+    margin-top:100px;
+    width:100%;
+  }
+  .centered{
+    left:5%;
+    width:90%;
   }
 }
